@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'robustmanager.urls'
+ROOT_URLCONF = 'djangojwt.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'robustmanager.wsgi.application'
+WSGI_APPLICATION = 'djangojwt.wsgi.application'
 
 
 # Database
